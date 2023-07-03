@@ -1,6 +1,6 @@
-# コピペ門番（Copy and Paste Gatekeeper）
+# コピペ監視員（Copy and Paste Observer）
 
-「コピペ門番（Copy and Paste Gatekeeper）」は、クリップボード操作を制御し、誤ったコピペ操作からユーザを守る Chrome 拡張機能です。  
+「コピペ監視員（Copy and Paste Observer）」は、コピペ操作を制御し、危険なコピペが発生したら注意をする Chrome 拡張機能です。  
 manifest_version 3 を使用しています。
 
 ## インストール方法
