@@ -1,4 +1,5 @@
 document.addEventListener("paste", async (event) => {
+  console.log("tese");
   const clipboardData = event.clipboardData || window.clipboardData;
   const pastedData = clipboardData.getData("Text");
 
@@ -9,7 +10,6 @@ document.addEventListener("paste", async (event) => {
     );
   });
 
-  console.log(response);
   if (response.includes.length > 0) {
     window.alert(response.message + " ・" + response.includes.join("\n ・"));
   }
